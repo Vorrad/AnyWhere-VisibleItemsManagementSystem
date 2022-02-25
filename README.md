@@ -91,6 +91,34 @@
 
 项目开发过程中可能会用到数据库，目前阶段尚未
 
+## 环境配置
+
+环境配置教程参照[官方链接](https://doc.qt.io/qtforpython-6/quickstart.html)
+
+1. 配置虚拟环境
+   1. 在工程目录下在终端输入指令
+      `python -m venv env`
+      （对于python3用户可能需要将`python`换成`python3`）
+   1. `source env/bin/activate`（Linux 和 macOS 用户）
+`env\Scripts\activate.bat`（Windows 用户）
+2. 安装Qt for Python 包
+   1. `pip install pyside6`（安装最新版本）
+      `pip install pyside6==6.0`（安装6.0版本）
+3. 检查安装
+   1. 在Python源文件（.py）中输入
+
+   ```python
+   import PySide6.QtCore
+
+   # Prints PySide6 version
+   print(PySide6.__version__)
+
+   # Prints the Qt version used to compile PySide6
+   print(PySide6.QtCore.__version__)
+   ```
+
+   并运行，若安装正确则应正确输出 PySide6 包的版本号
+
 ## 联系
 
 对于任何使用问题或讨论，请联系作者邮箱 15217340356@163.com
