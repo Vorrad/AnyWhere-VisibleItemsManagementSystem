@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>815</width>
-    <height>548</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,11 +23,11 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>815</width>
+     <width>800</width>
      <height>18</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menu">
+   <widget class="QMenu" name="menuFile">
     <property name="title">
      <string>文件</string>
     </property>
@@ -44,16 +44,87 @@
     <addaction name="separator"/>
     <addaction name="action_Exit"/>
    </widget>
-   <widget class="QMenu" name="menu_2">
+   <widget class="QMenu" name="menuScene">
     <property name="title">
      <string>场景</string>
     </property>
     <addaction name="actionNewScene"/>
    </widget>
-   <addaction name="menu"/>
-   <addaction name="menu_2"/>
+   <addaction name="menuFile"/>
+   <addaction name="menuScene"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="features">
+    <set>QDockWidget::NoDockWidgetFeatures</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string/>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <widget class="QToolButton" name="toolButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>48</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>场景</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>figs/scene_unclicked.svg</normaloff>figs/scene_unclicked.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="shortcut">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>48</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>场景</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>figs/items_unclicked.svg</normaloff>figs/items_unclicked.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="shortcut">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
   <action name="actionNewFile">
    <property name="checkable">
     <bool>false</bool>
