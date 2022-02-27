@@ -1,0 +1,126 @@
+<svg viewBox="0 0 1000 1000" height="1000" width="1000" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="暂无搜索结果">
+  <defs>
+    <style>
+      .cls-1, .cls-11, .cls-14, .cls-15, .cls-2, .cls-3, .cls-4, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: #f9f2f1;
+      }
+
+      .cls-6 {
+        fill: #ecd0ce;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-9 {
+        fill: #f3e2e2;
+      }
+
+      .cls-11 {
+        fill: #e0c4c2;
+      }
+
+      .cls-12, .cls-13, .cls-16 {
+        fill: none;
+      }
+
+      .cls-12 {
+        stroke: #ecd0ce;
+        stroke-width: 3px;
+      }
+
+      .cls-13, .cls-16 {
+        stroke-width: 20px;
+      }
+
+      .cls-13 {
+        stroke: url(#linear-gradient-6);
+      }
+
+      .cls-14 {
+        fill: #edd3d1;
+      }
+
+      .cls-15 {
+        fill: #f2e0dd;
+      }
+
+      .cls-16 {
+        stroke: url(#linear-gradient-7);
+      }
+    </style>
+    <linearGradient gradientUnits="userSpaceOnUse" y2="577.875" x2="498.797" y1="863.438" x1="498.797" id="linear-gradient">
+      <stop stop-color="#fff" offset="0"></stop>
+      <stop stop-color="#fff" offset="0.01"></stop>
+      <stop stop-color="#f9f3f2" offset="1"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" y2="483.844" x2="106.188" y1="562" x1="106.188" id="linear-gradient-2">
+      <stop stop-color="#fff" offset="0"></stop>
+      <stop stop-color="#f9f2f1" offset="1"></stop>
+    </linearGradient>
+    <linearGradient xlink:href="#linear-gradient-2" y2="197.875" x2="748.89" y1="311" x1="748.89" id="linear-gradient-3"></linearGradient>
+    <linearGradient xlink:href="#linear-gradient-2" y2="549.5" x2="883.157" y1="606.031" x1="883.157" id="linear-gradient-4"></linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" y2="259.938" x2="486" y1="695.594" x1="486" id="linear-gradient-5">
+      <stop stop-color="#ecd4d2" offset="0"></stop>
+      <stop stop-color="#f3e3e1" offset="1"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" y2="578.563" x2="689.063" y1="578.563" x1="483.219" id="linear-gradient-6">
+      <stop stop-color="#f3e3e0" offset="0"></stop>
+      <stop stop-color="#ecd0ce" offset="1"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" y2="579.563" x2="685.188" y1="579.563" x1="481.375" id="linear-gradient-7">
+      <stop stop-color="#ecd0ce" offset="0"></stop>
+      <stop stop-color="#f3e3e0" offset="1"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M498.8,577.889c247.644,0,448.4,63.92,448.4,142.768S746.442,863.426,498.8,863.426,50.4,799.506,50.4,720.657,251.153,577.889,498.8,577.889Z" class="cls-1" id="椭圆_1"></path>
+  <g id="组_15">
+    <path d="M88,506s-36.385-5.24-37,27c-0.18,13.306,14.054,29,25,29h55c19.276,0,43.44-36.748,22-63S93.138,484.21,88,506Z" class="cls-2" id="形状_16"></path>
+    <path d="M722.553,229.947S669.891,222.363,669,269.026C668.739,288.285,689.341,311,705.184,311H784.79c27.9,0,62.875-53.188,31.843-91.185S729.99,198.409,722.553,229.947Z" class="cls-3" id="形状_16_拷贝_2"></path>
+    <path d="M870,565.539s-26.313-3.79-26.758,19.526c-0.13,9.622,10.163,20.972,18.079,20.972H901.1c13.94,0,31.415-26.575,15.91-45.561S873.718,549.781,870,565.539Z" class="cls-4" id="形状_16_拷贝"></path>
+    <ellipse ry="17.469" rx="173.578" cy="748.282" cx="495.828" class="cls-5" id="椭圆_1-2"></ellipse>
+  </g>
+  <path d="M342.469,243.625H653.7a20,20,0,0,1,20,20v412.08a20,20,0,0,1-20,20H342.469a20,20,0,0,1-20-20V263.625A20,20,0,0,1,342.469,243.625Z" class="cls-6" id="圆角矩形_1"></path>
+  <path d="M341.412,259.932H630.579a20,20,0,0,1,20,20V675.594a20,20,0,0,1-20,20H341.412a20,20,0,0,1-20-20V279.932A20,20,0,0,1,341.412,259.932Z" class="cls-7" id="圆角矩形_1_拷贝"></path>
+  <path d="M364.265,294.008H611.93a4,4,0,0,1,4,4v358.3a4,4,0,0,1-4,4H364.265a4,4,0,0,1-4-4v-358.3A4,4,0,0,1,364.265,294.008Z" class="cls-8" id="圆角矩形_1_拷贝_2"></path>
+  <path d="M407.806,367.956H566.86a2,2,0,0,1,2,2v6.191a2,2,0,0,1-2,2H407.806a2,2,0,0,1-2-2v-6.191A2,2,0,0,1,407.806,367.956Z" class="cls-9" id="圆角矩形_2"></path>
+  <path d="M407.806,408.72H566.86a2,2,0,0,1,2,2v6.191a2,2,0,0,1-2,2H407.806a2,2,0,0,1-2-2V410.72A2,2,0,0,1,407.806,408.72Z" class="cls-9" id="圆角矩形_2_拷贝"></path>
+  <path d="M407.806,449.483h98.418a2,2,0,0,1,2,2v6.191a2,2,0,0,1-2,2H407.806a2,2,0,0,1-2-2v-6.191A2,2,0,0,1,407.806,449.483Z" class="cls-9" id="圆角矩形_2_拷贝_2"></path>
+  <path d="M407.806,490.247H566.86a2,2,0,0,1,2,2v6.191a2,2,0,0,1-2,2H407.806a2,2,0,0,1-2-2v-6.191A2,2,0,0,1,407.806,490.247Z" class="cls-9" id="圆角矩形_2_拷贝_3"></path>
+  <path d="M407.806,535.087H566.86a2,2,0,0,1,2,2v6.191a2,2,0,0,1-2,2H407.806a2,2,0,0,1-2-2v-6.191A2,2,0,0,1,407.806,535.087Z" class="cls-9" id="圆角矩形_2_拷贝_4"></path>
+  <path d="M407.806,575.851h98.418a2,2,0,0,1,2,2v6.191a2,2,0,0,1-2,2H407.806a2,2,0,0,1-2-2v-6.191A2,2,0,0,1,407.806,575.851Z" class="cls-9" id="圆角矩形_2_拷贝_5"></path>
+  <path d="M523,449.483a5.1,5.1,0,1,1-5.1,5.1A5.1,5.1,0,0,1,523,449.483Z" class="cls-9" id="椭圆_2"></path>
+  <circle r="5.094" cy="580.938" cx="523" class="cls-10" id="椭圆_2_拷贝"></circle>
+  <path d="M436.378,259.932H537.332V301.4H436.378V259.932Z" class="cls-6" id="矩形_1"></path>
+  <path d="M444.931,243.627H542.9l-5.572,17.006H436.378Z" class="cls-11" id="矩形_1_拷贝"></path>
+  <circle r="16.313" cy="227.359" cx="489.375" class="cls-12" id="椭圆_3"></circle>
+  <circle r="102.922" cy="578.563" cx="586.141" class="cls-13" id="椭圆_4_拷贝"></circle>
+  <path d="M676,621l59.354,58.911c5.9,5.975,4.525,16.912-3.081,24.428s-18.559,8.767-24.464,2.792L651,650" class="cls-14" id="圆角矩形_3_拷贝"></path>
+  <path d="M674.334,623.025l60.728,61.428c6.556,6.634,5.024,18.777-3.421,27.123s-20.606,9.734-27.162,3.1l-58.728-59.428" class="cls-15" id="圆角矩形_3"></path>
+  <circle r="101.906" cy="579.563" cx="583.282" class="cls-16" id="椭圆_4"></circle>
+</svg>
