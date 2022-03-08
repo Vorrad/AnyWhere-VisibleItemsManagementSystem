@@ -10,11 +10,15 @@ CONFIG += c++11
 
 SOURCES += \
     centralwidget.cpp \
+    item.cpp \
+    itemdialog.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     centralwidget.h \
+    item.h \
+    itemdialog.h \
     mainwindow.h
 
 FORMS += \

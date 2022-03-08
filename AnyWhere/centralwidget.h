@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QImage>
 #include <QLabel>
+#include <QPushButton>
 
 class CentralWidget : public QWidget
 {
@@ -12,8 +13,10 @@ public:
     explicit CentralWidget(QWidget *parent = nullptr);
     QImage img;
     QLabel* imgLabel;
-signals:
+    QPushButton* mainButton;
 
+public slots:
+    void newItemDialog();
 };
 
 #endif // CENTRALWIDGET_H
