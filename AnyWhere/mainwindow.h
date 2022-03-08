@@ -40,6 +40,8 @@ private:
 
 public slots:
 
+    void newWindow();
+
     void sceneButtonPressed();
     void itemButtonPressed();
     void searchButtonPressed();

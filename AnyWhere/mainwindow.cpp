@@ -41,15 +41,21 @@ MainWindow::~MainWindow()
 
 void MainWindow::createActions()
 {
-    // 打开
-    openFileAction = new QAction("打开",this);
-    openFileAction->setShortcut(tr("Ctrl+O"));
-    openFileAction->setStatusTip("打开一个文件");
-
-    // 新建
-    newFileAction = new QAction("新建",this);
+    // 新建文件
+    newFileAction = new QAction("新建文件",this);
     newFileAction->setShortcut(tr("Ctrl+N"));
     newFileAction->setStatusTip("新建一个文件");
+
+    // 新建窗口
+    newWindowAction = new QAction("新建窗口",this);
+    newWindowAction->setShortcut(tr("Ctrl+Shift+N"));
+    newFileAction->setStatusTip("新建一个窗口");
+    connect(newWindowAction,&QAction::triggered,this,&MainWindow::newWindow);
+
+    // 打开文件
+    openFileAction = new QAction("打开文件",this);
+    openFileAction->setShortcut(tr("Ctrl+O"));
+    openFileAction->setStatusTip("打开一个文件");
 
     // 关闭
     closeAction = new QAction("关闭",this);
@@ -61,8 +67,9 @@ void MainWindow::createActions()
 void MainWindow::createMenus()
 {
     fileMenu = menuBar()->addMenu("文件");
-    fileMenu->addAction(openFileAction);
     fileMenu->addAction(newFileAction);
+    fileMenu->addAction(newWindowAction);
+    fileMenu->addAction(openFileAction);
     fileMenu->addAction(closeAction);
 }
 
@@ -70,8 +77,9 @@ void MainWindow::createToolBars()
 {
     // 文件工具栏
     fileTool = addToolBar("File");
-    fileTool->addAction(openFileAction);
     fileTool->addAction(newFileAction);
+    fileTool->addAction(newWindowAction);
+    fileTool->addAction(openFileAction);
     fileTool->addAction(closeAction);
 }
 
@@ -139,6 +147,18 @@ void MainWindow::itemView()
 void MainWindow::searchView()
 {
     qDebug()<<"searchView";
+}
+
+void MainWindow::newWindow()
+{
+    MainWindow* newWindow = new MainWindow(this);
+    QRect parentGeometry = this->geometry();
+    // 新建窗口与父窗口
+    newWindow->setGeometry(parentGeometry.x()+30,
+                           parentGeometry.y()+30,
+                           parentGeometry.width(),
+                           parentGeometry.height());
+    newWindow->show();
 }
 
 void MainWindow::sceneButtonPressed()
